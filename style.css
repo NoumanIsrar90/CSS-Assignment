@@ -1,0 +1,87 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+
+.header {
+    background: linear-gradient(45deg, #3b82f6, #1d4ed8);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #facc15;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.about, .contact {
+    background-color: #e5e7eb;
+}
+
+.projects {
+    background-color: white;
+}
+
+.project {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 10px 0;
+}
+
+h2 {
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+/* Footer */
+.footer {
+    background-color: #1e293b;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Contact Links */
+.contact a {
+    color: #3b82f6;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+.contact a:hover {
+    opacity: 0.7;
+}
